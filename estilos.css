@@ -1,0 +1,7 @@
+header{
+    background-color: red;
+}
+#presentacion{
+    background: url(img/consola_mario.PNG) no-repeat center top / cover;
+    min-height: 80vh;
+}
