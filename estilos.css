@@ -1,7 +1,42 @@
-header{
+a,li,ol{
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+    color: white;
+}
+body{
     background-color: red;
 }
-#presentacion{
-    background: url(img/consola_mario.PNG) no-repeat center top / cover;
-    min-height: 80vh;
+header#header{
+    background-color: red;
+    nav a{
+        font-size: 1.2rem;
+        font-weight: 500;
+        color: white;
+    }
+}
+main#main{
+    section#presentacion{
+        background: url(img/consola_mario.PNG) no-repeat center top / cover;
+        min-height: 75vh;
+    }
+    section#consola{
+        background-color: rgb(233, 249, 248);
+    }
+    section#noticias{
+        p{
+            font-size: 0.8rem;
+        }
+        div#mando{
+            img{
+                max-height: 50px;
+            }
+        }
+    }
+    section#novedades{
+        padding: 5% 0;
+    }
+}
+footer#footer{
+    padding: 20px;
 }
